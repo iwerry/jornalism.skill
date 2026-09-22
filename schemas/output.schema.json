@@ -1,0 +1,69 @@
+{
+  "version": "3.0.0",
+  "investigation_record": {
+    "research_question": "string",
+    "hypothesis": "string",
+    "alternative_hypothesis": "string",
+    "public_interest": "string",
+    "jurisdictions": [
+      "string"
+    ],
+    "claims": [
+      {
+        "claim": "string",
+        "status": "verified|attributed|inferred|unresolved",
+        "evidence": [
+          "string"
+        ],
+        "contradicting_evidence": [
+          "string"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "Sxx",
+        "title": "string",
+        "location": "string",
+        "retrieved_at": "ISO-8601",
+        "role": "primary|corroboration|context|lead"
+      }
+    ],
+    "right_of_reply": {
+      "parties": [
+        "string"
+      ],
+      "questions": [
+        "string"
+      ],
+      "sent_at": "ISO-8601",
+      "deadline": "ISO-8601",
+      "response": "string"
+    },
+    "limitations": [
+      "string"
+    ],
+    "next_checks": [
+      "string"
+    ]
+  },
+  "verification_record": {
+    "claim": "string",
+    "speaker": "string",
+    "date_context": "string",
+    "primary_source": "string",
+    "independent_sources": [
+      "string"
+    ],
+    "provenance_checks": [
+      "string"
+    ],
+    "method": [
+      "string"
+    ],
+    "status": "verified|partially_supported|misleading|false|unverifiable|indeterminate",
+    "not_verified": [
+      "string"
+    ]
+  }
+}

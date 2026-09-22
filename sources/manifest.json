@@ -1,0 +1,634 @@
+[
+  {
+    "id": "S01",
+    "title": "The Data Journalism Handbook 1",
+    "source_path": "DataJornalism.com/The-Data-Journalism-Handbook-1.pdf.pdf",
+    "language": "EN",
+    "pages": 192,
+    "tags": [
+      "data journalism",
+      "data questions",
+      "collection",
+      "cleaning",
+      "analysis",
+      "visualization"
+    ]
+  },
+  {
+    "id": "S02",
+    "title": "The Data Journalism Handbook 2",
+    "source_path": "DataJornalism.com/The-Data-Journalism-Handbook-2_PT.pdf",
+    "language": "PT",
+    "pages": 362,
+    "tags": [
+      "data journalism",
+      "investigations",
+      "reuse of public data",
+      "analysis",
+      "visualization"
+    ]
+  },
+  {
+    "id": "S03",
+    "title": "Verification Handbook 1",
+    "source_path": "DataJornalism.com/Verification-Handbook-1.pdf.pdf",
+    "language": "EN",
+    "pages": 130,
+    "tags": [
+      "verification",
+      "breaking news",
+      "user generated content",
+      "image/video verification"
+    ]
+  },
+  {
+    "id": "S04",
+    "title": "Verification Handbook 2",
+    "source_path": "DataJornalism.com/Verification-Handbook-2-compactado.pdf",
+    "language": "EN",
+    "pages": 64,
+    "tags": [
+      "open source research",
+      "investigative verification",
+      "online research",
+      "UGC"
+    ]
+  },
+  {
+    "id": "S05",
+    "title": "Verification Handbook 3",
+    "source_path": "DataJornalism.com/Verification-Handbook-3.pdf.pdf",
+    "language": "EN",
+    "pages": 152,
+    "tags": [
+      "disinformation",
+      "media manipulation",
+      "information disorder",
+      "investigation"
+    ]
+  },
+  {
+    "id": "S06",
+    "title": "Guide to Company Accounts",
+    "source_path": "jornalismo_Investivative/Guide-to-Company-Accounts.pdf.pdf",
+    "language": "EN",
+    "pages": 173,
+    "tags": [
+      "company accounts",
+      "financial investigation",
+      "corporate records",
+      "red flags"
+    ]
+  },
+  {
+    "id": "S07",
+    "title": "The Story Tells the Facts",
+    "source_path": "jornalismo_Investivative/The-Story-Tells-the-Facts.pdf.pdf",
+    "language": "EN",
+    "pages": 73,
+    "tags": [
+      "investigative narrative",
+      "story structure",
+      "evidence-led writing"
+    ]
+  },
+  {
+    "id": "S08",
+    "title": "The Hidden Scenario",
+    "source_path": "jornalismo_Investivative/The-Hidden-Scenario.pdf.pdf",
+    "language": "EN",
+    "pages": 49,
+    "tags": [
+      "investigative story planning",
+      "plotting",
+      "outlining",
+      "hypothesis"
+    ]
+  },
+  {
+    "id": "S09",
+    "title": "Decalogo de estilo para escribir con IA",
+    "source_path": "IA_Jornalism/1_20Decalogo_claves-de-estilo-para-escribir-con-IA_20(1).pdf.pdf",
+    "language": "ES",
+    "pages": 18,
+    "tags": [
+      "AI-assisted writing",
+      "style",
+      "editing",
+      "disclosure"
+    ]
+  },
+  {
+    "id": "S10",
+    "title": "alt+Ignite: Fuel Curiosity, Elevate Your AI Literacy",
+    "source_path": "IA_Jornalism/1 FULL GUIDE_ alt Ignite- Fuel Curiosity, Elevate Your AI Literacy (1).pdf",
+    "language": "EN",
+    "pages": 27,
+    "tags": [
+      "AI literacy",
+      "critical thinking",
+      "AI use"
+    ]
+  },
+  {
+    "id": "S11",
+    "title": "Newsgathering and Monitoring the Social Web",
+    "source_path": "IA_Jornalism/Leitura_203_20Newsgathering_and_Monitoring_Digital_AW_PTBR.pdf.pdf",
+    "language": "PT",
+    "pages": 67,
+    "tags": [
+      "newsgathering",
+      "social monitoring",
+      "verification",
+      "digital sources"
+    ]
+  },
+  {
+    "id": "S12",
+    "title": "Ensino de Inteligência Artificial para estudantes de Jornalismo",
+    "source_path": "IA_Jornalism/320-Manuscrito de livro-1652-1-10-20260423.pdf",
+    "language": "PT",
+    "pages": 193,
+    "tags": [
+      "AI in journalism education",
+      "prompting",
+      "journalism workflows",
+      "ethics"
+    ]
+  },
+  {
+    "id": "S13",
+    "title": "AI in Journalism Futures — Initial Report",
+    "source_path": "IA_Jornalism/ai-in-journalism-futures-initial-report-20240819.pdf",
+    "language": "EN",
+    "pages": 57,
+    "tags": [
+      "AI newsroom futures",
+      "workflow change",
+      "strategy",
+      "risks"
+    ]
+  },
+  {
+    "id": "S14",
+    "title": "Generating Change",
+    "source_path": "IA_Jornalism/Generating Change.pdf",
+    "language": "EN",
+    "pages": 91,
+    "tags": [
+      "AI in news organizations",
+      "adoption",
+      "governance",
+      "workflow"
+    ]
+  },
+  {
+    "id": "S15",
+    "title": "Information Disorder",
+    "source_path": "IA_Jornalism/Leitura_201_20Information_Disorder_Digital_AW_PTBR.pdf.pdf",
+    "language": "PT",
+    "pages": 71,
+    "tags": [
+      "misinformation",
+      "disinformation",
+      "malinformation",
+      "information disorder"
+    ]
+  },
+  {
+    "id": "S16",
+    "title": "Generating Change (duplicate edition)",
+    "source_path": "IA_Jornalism/2_20Generating_20Change_20__The_20Journalism_20AI_20report_20__English_20(1).pdf.pdf",
+    "language": "EN",
+    "pages": 91,
+    "tags": [
+      "AI in news organizations",
+      "adoption",
+      "governance"
+    ]
+  },
+  {
+    "id": "S17",
+    "title": "AFP Fact-Checking Stylebook",
+    "source_path": "AFP/afpfactcheckstylebooken.pdf",
+    "language": "EN",
+    "pages": 13,
+    "tags": [
+      "fact checking",
+      "claims",
+      "evidence",
+      "editorial verdicts"
+    ]
+  },
+  {
+    "id": "S18",
+    "title": "Manual de edição: jornalismo científico",
+    "source_path": "Creator Jornalistas/Manual-de-edicao-jornalismo-cientifico-v1.6-pt.pdf.pdf",
+    "language": "PT",
+    "pages": 282,
+    "tags": [
+      "science journalism",
+      "evidence",
+      "uncertainty",
+      "editing"
+    ]
+  },
+  {
+    "id": "S19",
+    "title": "Content Creators and Journalists",
+    "source_path": "Creator Jornalistas/Content-Creator-and-Journalists_PT.pdf.pdf",
+    "language": "PT",
+    "pages": 113,
+    "tags": [
+      "creator journalism",
+      "credibility",
+      "platforms",
+      "news ecosystem"
+    ]
+  },
+  {
+    "id": "S20",
+    "title": "Periodismo en Centroamérica frente al retroceso democrático",
+    "source_path": "Creator Jornalistas/Periodismo-en-Centroamerica_ES.pdf.pdf",
+    "language": "ES",
+    "pages": 149,
+    "tags": [
+      "press freedom",
+      "democratic backsliding",
+      "journalist safety",
+      "regional journalism"
+    ]
+  },
+  {
+    "id": "S21",
+    "title": "Proteção dos Jornalistas",
+    "source_path": "Creator Jornalistas/PROTECAO-DOS-JORNALISTAS-FINAL-UPLOAD-8.1.pdf.pdf",
+    "language": "PT",
+    "pages": 104,
+    "tags": [
+      "journalist safety",
+      "security",
+      "justice",
+      "Latin America"
+    ]
+  },
+  {
+    "id": "S22",
+    "title": "Estatuto da FENAJ",
+    "source_path": "Manual_Editorial/Estatuto-da-FENAJ-Registrado.pdf",
+    "language": "PT",
+    "pages": 15,
+    "tags": [
+      "professional framework",
+      "journalist rights",
+      "ethics"
+    ]
+  },
+  {
+    "id": "S23",
+    "title": "Princípios Editoriais das Organizações Globo",
+    "source_path": "Manual_Editorial/principios-editoriais-das-organizacoes - GLOBO.pdf",
+    "language": "PT",
+    "pages": 27,
+    "tags": [
+      "editorial principles",
+      "accuracy",
+      "independence",
+      "ethics"
+    ]
+  },
+  {
+    "id": "S24",
+    "title": "Manual de Redação e Estilo Estadão",
+    "source_path": "Manual_Editorial/Manual-de-Redação-e-Estilo-Estadão.pdf",
+    "language": "PT",
+    "pages": 401,
+    "tags": [
+      "Portuguese style",
+      "headlines",
+      "clarity",
+      "usage"
+    ]
+  },
+  {
+    "id": "S25",
+    "title": "Guia de Boas Práticas para o Fortalecimento da Ética na Publicação Científica",
+    "source_path": "Manual_Editorial/Guia-de-Boas-Praticas-para-o-Fortalecimento-da-Etica-na-Publicacao-Cientifica.pdf",
+    "language": "PT",
+    "pages": 7,
+    "tags": [
+      "research integrity",
+      "publication ethics",
+      "corrections"
+    ]
+  },
+  {
+    "id": "S26",
+    "title": "Manual da Redação e Padronização Poder360",
+    "source_path": "Manual_Editorial/Manual-Redacao-Poder360-jan2021-1-1.pdf",
+    "language": "PT",
+    "pages": 93,
+    "tags": [
+      "digital newsroom style",
+      "headlines",
+      "copy editing",
+      "numbers"
+    ]
+  },
+  {
+    "id": "S27",
+    "title": "Manual de Redação Agência Senado e Jornal do Senado",
+    "source_path": "Manual_Editorial/manual_redacao_agencia - SENADO FEDERAL.pdf",
+    "language": "PT",
+    "pages": 155,
+    "tags": [
+      "institutional journalism",
+      "style",
+      "public information",
+      "legislative coverage"
+    ]
+  },
+  {
+    "id": "S28",
+    "title": "AFP Editorial Standards and Best Practices",
+    "source_path": "Manual_Editorial/afp_ethic_February_2025.pdf",
+    "language": "EN",
+    "pages": 33,
+    "tags": [
+      "accuracy",
+      "balance",
+      "source protection",
+      "corrections",
+      "photo ethics"
+    ]
+  },
+  {
+    "id": "S29",
+    "title": "Manual de Jornalismo RS",
+    "source_path": "Manual_Editorial/manual-de-redacao - RS.pdf",
+    "language": "PT",
+    "pages": 16,
+    "tags": [
+      "clarity",
+      "objectivity",
+      "headlines",
+      "numbers"
+    ]
+  },
+  {
+    "id": "S30",
+    "title": "Manual de Redação da Presidência da República",
+    "source_path": "Manual_Editorial/manual-de-redacao - Presidencia da Republica.pdf",
+    "language": "PT",
+    "pages": 190,
+    "tags": [
+      "official writing",
+      "grammar",
+      "legislative drafting"
+    ]
+  },
+  {
+    "id": "S31",
+    "title": "Practices and Principles of Coverage Access for Independent White House Press",
+    "source_path": "Manual_Editorial/2015WHCA_PracticesPrinciples_CoverageAccess.pdf",
+    "language": "EN",
+    "pages": 16,
+    "tags": [
+      "press access",
+      "coverage logistics",
+      "official information"
+    ]
+  },
+  {
+    "id": "S32",
+    "title": "Manual de Jornalismo da EBC",
+    "source_path": "Manual_Editorial/manual_de_jornalismo_ebc.pdf",
+    "language": "PT",
+    "pages": 145,
+    "tags": [
+      "public broadcasting journalism",
+      "ethics",
+      "accuracy",
+      "participatory journalism"
+    ]
+  },
+  {
+    "id": "S33",
+    "title": "Código de Ética dos Jornalistas Brasileiros",
+    "source_path": "Manual_Editorial/04-codigo_de_etica_dos_jornalistas_brasileiros.pdf",
+    "language": "PT",
+    "pages": 5,
+    "tags": [
+      "journalist ethics",
+      "right to information",
+      "professional responsibility"
+    ]
+  },
+  {
+    "id": "S34",
+    "title": "Freedom of Expression, Artificial Intelligence and Elections",
+    "source_path": "Cyber Jornalismo/Freedom of Expression, Artificial Intelligence  and Elections - unesco.pdf",
+    "language": "EN",
+    "pages": 21,
+    "tags": [
+      "AI and elections",
+      "information integrity",
+      "platform governance",
+      "freedom of expression"
+    ]
+  },
+  {
+    "id": "S35",
+    "title": "Plataformização, Inteligência Artificial e Soberania de Dados: Tecnologia no Brasil 2020–2030",
+    "source_path": "Cyber Jornalismo/tecnologia_no_brasil_2020_2030.pdf",
+    "language": "PT",
+    "pages": 188,
+    "tags": [
+      "platformization",
+      "AI",
+      "data sovereignty",
+      "Brazil"
+    ]
+  },
+  {
+    "id": "S36",
+    "title": "Data Not Found — UFRJ",
+    "source_path": "Cyber Jornalismo/Data Not Found - UFRJ.pdf",
+    "language": "PT",
+    "pages": 83,
+    "tags": [
+      "platform transparency",
+      "data access",
+      "DSA",
+      "information integrity"
+    ]
+  },
+  {
+    "id": "S37",
+    "title": "Atingidos pelas Redes Sociais",
+    "source_path": "Cyber Jornalismo/Atingidos pelas redes sociais.pdf",
+    "language": "PT",
+    "pages": 304,
+    "tags": [
+      "social media harms",
+      "disinformation",
+      "platforms",
+      "digital culture"
+    ]
+  },
+  {
+    "id": "S38",
+    "title": "Google Hacking for Penetration Testers, 3rd ed.",
+    "source_path": "Google Dorkings/GoogleHackingForPenetrationTesters-ThirdEdition.pdf",
+    "language": "EN",
+    "pages": 238,
+    "tags": [
+      "search operators",
+      "document discovery",
+      "public exposure",
+      "defensive security"
+    ]
+  },
+  {
+    "id": "S39",
+    "title": "OWASP Testing Guide v4",
+    "source_path": "Google Dorkings/OWASP_Testing_Guide_v4.pdf.pdf",
+    "language": "EN",
+    "pages": 225,
+    "tags": [
+      "web security testing",
+      "application security",
+      "threat modeling",
+      "defensive verification"
+    ]
+  },
+  {
+    "id": "S40",
+    "title": "Dorking 101 — The Art of Passive Recon",
+    "source_path": "Google Dorkings/Dorking 101 - The Art of Passive Recon - ESTG_Pt-BR.pdf",
+    "language": "PT",
+    "pages": 191,
+    "tags": [
+      "passive reconnaissance",
+      "search",
+      "OSINT",
+      "security"
+    ]
+  },
+  {
+    "id": "S41",
+    "title": "Data Mining: Concepts and Techniques, 3rd ed.",
+    "source_path": "Google Dorkings/Data Mining - Concepts adn Techiniques - 3ed.pdf",
+    "language": "EN",
+    "pages": 741,
+    "tags": [
+      "data mining",
+      "preprocessing",
+      "classification",
+      "clustering",
+      "pattern mining"
+    ]
+  },
+  {
+    "id": "S42",
+    "title": "Hacking Exposed: Google Dorks, Shodan and Censys",
+    "source_path": "Google Dorkings/Hacking Exposed Leveraging Google Dorks, Shodan, and Censys for Cyber Attacks and the Defense Against Them.pdf",
+    "language": "EN",
+    "pages": 26,
+    "tags": [
+      "asset discovery",
+      "search engines",
+      "exposure management",
+      "defense"
+    ]
+  },
+  {
+    "id": "S43",
+    "title": "Advanced Data Mining Techniques",
+    "source_path": "Google Dorkings/Advanced_Data_Mining_Techniques.pdf",
+    "language": "EN",
+    "pages": 182,
+    "tags": [
+      "data mining",
+      "CRISP-DM",
+      "model evaluation",
+      "classification"
+    ]
+  },
+  {
+    "id": "S44",
+    "title": "Modelo de Pauta Padrão",
+    "source_path": "ManuaisJornalismo/ModeloPauta_Padrao.pdf",
+    "language": "PT",
+    "pages": 3,
+    "tags": [
+      "story assignment",
+      "pitch",
+      "sources",
+      "questions"
+    ]
+  },
+  {
+    "id": "S45",
+    "title": "Os 50 Principais Livros e Autores do Jornalismo de Direita",
+    "source_path": "ManuaisJornalismo/guia_jornalismo_direita_50_livros.pdf",
+    "language": "PT",
+    "pages": 14,
+    "tags": [
+      "media criticism",
+      "ideological bibliography"
+    ]
+  },
+  {
+    "id": "S46",
+    "title": "Trace Labs OSINT Search Party — Contestant Guide",
+    "source_path": "OSINT/Trace-Labs-OSINT-Search-Party-CTF-Contestant-Guide_v1.pdf",
+    "language": "EN",
+    "pages": 23,
+    "tags": [
+      "OSINT workflow",
+      "search",
+      "validation",
+      "case research"
+    ]
+  },
+  {
+    "id": "S47",
+    "title": "Trace Labs OSINT Search Party — Coach Guide",
+    "source_path": "OSINT/Trace-Labs-Search-Party-CTF-Coach-Guide.pdf",
+    "language": "EN",
+    "pages": 14,
+    "tags": [
+      "OSINT validation",
+      "case management",
+      "review"
+    ]
+  },
+  {
+    "id": "S48",
+    "title": "Berkeley Protocol on Digital Open Source Investigations",
+    "source_path": "BerkeleyProtocol/Berkeley Protocol on Digital Open Source Investigations.pdf.pdf",
+    "language": "EN",
+    "pages": 103,
+    "tags": [
+      "OSINT",
+      "digital evidence",
+      "legal framework",
+      "security",
+      "reporting"
+    ]
+  },
+  {
+    "id": "S49",
+    "title": "Evaluating Digital Open Source Imagery",
+    "source_path": "BerkeleyProtocol/Evaluating digital  open source imagery - A guide for judges  and fact-finders.pdf",
+    "language": "EN",
+    "pages": 35,
+    "tags": [
+      "image verification",
+      "provenance",
+      "authentication",
+      "fact-finding"
+    ]
+  }
+]

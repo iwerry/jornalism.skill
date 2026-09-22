@@ -1,0 +1,26 @@
+version: 3.0.0
+name: investigativejournalism.skill
+author: Daniel Rodrigues
+default_language: en
+language_detection: user_message
+knowledge_modules:
+  investigation: knowledge/INVESTIGATION.md
+  verification: knowledge/VERIFICATION.md
+  osint: knowledge/OSINT.md
+  data: knowledge/DATA.md
+  companies_money: knowledge/COMPANIES_AND_MONEY.md
+  editorial: knowledge/EDITORIAL.md
+  ethics_safety: knowledge/ETHICS_AND_SAFETY.md
+  ai_information_integrity: knowledge/AI_AND_INFORMATION_INTEGRITY.md
+  internationalization: knowledge/INTERNATIONALIZATION.md
+source_manifest: sources/manifest.json
+references: REFERENCES.md
+schemas: schemas/output.schema.json
+rules:
+  primary_evidence_first: true
+  require_uncertainty_field: true
+  require_provenance_for_digital_evidence: true
+  require_adversarial_test_for_investigations: true
+  protect_vulnerable_people: true
+  passive_osint_only: true
+  ai_is_not_evidence: true
