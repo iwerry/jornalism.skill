@@ -51,36 +51,16 @@ Preserve:
 
 A screenshot alone is weak provenance.
 
-## Geolocation
-Use multiple independent anchors:
-- fixed landmarks;
-- road geometry;
-- signage;
-- building shapes;
-- terrain;
-- utility infrastructure;
-- shadows;
-- weather.
-
-Do not publish precise location when it creates unnecessary risk.
-
-## Chronolocation
-Compare:
-- sun/shadow;
-- weather;
-- construction state;
-- vegetation;
-- event schedules;
-- archived images;
-- upload history.
-
-Distinguish event time from upload time.
+## Geolocation and chronolocation
+For the full tool-level geolocation/chronolocation workflow (imagery, satellite, shadows, landmarks) see `knowledge/GEOLOCATION.md`. In short, use multiple independent anchors — landmarks, road geometry, signage, terrain, shadows, weather — and never publish a precise location when it creates unnecessary risk.
 
 ## Ethical OSINT
 The fact that information is technically discoverable does not automatically make publication justified.
 
 Apply:
 `public interest + necessity + proportionality + harm minimization`.
+
+A concrete tool inventory (search engines, archives, imagery, corporate/financial registries) lives in `tools/TOOLBOX.md`. Listing a tool there is not an endorsement to use it beyond lawful, passive, public-source research — the same boundary as this file.
 
 ## Source map
 - S38 — advanced search operators and public document discovery.

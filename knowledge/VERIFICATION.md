@@ -43,6 +43,8 @@ Useful checks include:
 
 A detector score is not authentication.
 
+See `knowledge/GEOLOCATION.md` for the tool-level workflow and `tools/TOOLBOX.md` for a concrete tool inventory.
+
 ## Document verification
 Inspect:
 - issuer;

@@ -15,6 +15,8 @@ Map:
 - filings;
 - annual accounts.
 
+Registries and databases for this mapping (OpenCorporates, national company registries, sanctions/PEP lists, court-record portals) are listed in `tools/TOOLBOX.md` under "Companies, money and records".
+
 ## Financial statements
 Read:
 - balance sheet;

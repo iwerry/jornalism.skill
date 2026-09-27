@@ -57,40 +57,40 @@ This file records how the 49 analyzed PDFs contribute to the skill. The skill us
 ## Operational routing
 
 ### Investigation
-Primary: S06, S07, S08, S44, S48.  
+Primary: S06, S07, S08, S44, S48.
 Supporting: S01–S05, S17, S18, S20–S21, S28, S32–S33.
 
 ### Verification
-Primary: S03, S04, S05, S17, S48, S49.  
+Primary: S03, S04, S05, S17, S48, S49.
 Supporting: S11, S15, S34, S37.
 
 ### OSINT
-Primary: S38, S40, S46, S48, S49.  
+Primary: S38, S40, S46, S48, S49.
 Defensive security context: S39, S42.
 
 ### Data journalism
-Primary: S01, S02.  
-Analytical methods: S41, S43.  
+Primary: S01, S02.
+Analytical methods: S41, S43.
 Scientific evidence context: S18, S25.
 
 ### Companies and money
-Primary: S06.  
+Primary: S06.
 Supporting analytical methods: S01, S02, S41, S43.
 
 ### Editorial
-Primary: S17, S23, S24, S26–S30, S32–S33.  
+Primary: S17, S23, S24, S26–S30, S32–S33.
 Specialized: S18, S19, S31.
 
 ### Ethics and safety
-Primary: S20–S23, S28, S32–S33, S48.  
+Primary: S20–S23, S28, S32–S33, S48.
 Research integrity: S25.
 
 ### AI and information integrity
-Primary: S09–S17, S34–S37.  
+Primary: S09–S17, S34–S37.
 Editorial controls: S17, S28.
 
 ### Internationalization
-Primary: S20, S34–S37, S48–S49.  
+Primary: S20, S34–S37, S48–S49.
 Brazilian localization: S22–S33.
 
 ## Source precedence
@@ -107,3 +107,7 @@ A book in the corpus should never be treated as proof of a current fact merely b
 ## Duplicate source
 
 S14 and S16 are duplicate editions of *Generating Change*. They are kept as separate inventory entries because both files were present in the supplied archive, but the runtime should normally treat them as one source family.
+
+## v4.0.0 addendum
+
+The five new knowledge modules added in v4.0.0 (`GEOLOCATION.md`, `DIGITAL_SAFETY.md`, `DATA_VISUALIZATION.md`, `NARRATIVE_AND_STYLE.md`, `MULTI_ENGINE.md`) are not mapped to the S01–S49 PDF corpus above. `GEOLOCATION.md` and `DIGITAL_SAFETY.md` do draw on the same OSINT/digital-evidence source family already routed here (S38–S40, S42, S46–S49); the other three codify packaging, production and craft principles with no book-length source behind them. See `CREDITS.md` for what informed each one.

@@ -69,6 +69,8 @@ Avoid:
 - color that encodes meaning without a legend;
 - cherry-picked time windows.
 
+For interactive dashboards, maps and published data pieces, see `knowledge/DATA_VISUALIZATION.md`.
+
 ## 7. Data mining
 The data-mining references support structured discovery, preprocessing, pattern detection and model evaluation.
 

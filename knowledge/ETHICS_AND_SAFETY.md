@@ -30,7 +30,7 @@ Consider:
 - legal intimidation;
 - financial pressure.
 
-For each risk, record mitigation and residual risk.
+For each risk, record mitigation and residual risk. `knowledge/DIGITAL_SAFETY.md` gives an operational checklist (email/account hygiene, phishing recognition, metadata scrubbing) for this threat model, kept strictly defensive.
 
 ## Digital evidence safety
 Preserve evidence without modifying originals. Use copies for analysis.

@@ -1,18 +1,19 @@
 # 🔎 Investigative Journalism Skill
 
-> **A modular AI skill for investigative journalism, OSINT, fact-checking, verification, data journalism, corporate research, source protection, and information integrity.**
+> **A modular AI skill for investigative journalism, OSINT, fact-checking, verification, data journalism, corporate research, source protection, and information integrity — built to run on any capable AI engine.**
 
-**Author:** Daniel Rodrigues  
-**Skill:** `investigativejournalism.skill`  
-**Version:** `3.0.0`  
-**Language:** English-first • International by design  
+**Author:** Daniel Rodrigues
+**Skill:** `investigativejournalism.skill`
+**Version:** `4.0.0`
+**Language:** English-first • International by design
 **Repository:** [iwerry/jornalism.skill](https://github.com/iwerry/jornalism.skill)
 
-[![Version](https://img.shields.io/badge/version-3.0.0-blue?style=for-the-badge)](https://github.com/iwerry/jornalism.skill)
+[![Version](https://img.shields.io/badge/version-4.0.0-blue?style=for-the-badge)](https://github.com/iwerry/jornalism.skill)
 [![Knowledge Sources](https://img.shields.io/badge/knowledge-49%20sources-purple?style=for-the-badge)](https://github.com/iwerry/jornalism.skill)
 [![OSINT](https://img.shields.io/badge/OSINT-supported-success?style=for-the-badge)](https://github.com/iwerry/jornalism.skill)
 [![Fact Checking](https://img.shields.io/badge/fact--checking-supported-orange?style=for-the-badge)](https://github.com/iwerry/jornalism.skill)
-[![License](https://img.shields.io/badge/license-see%20repository-lightgrey?style=for-the-badge)](https://github.com/iwerry/jornalism.skill)
+[![Multi-Engine](https://img.shields.io/badge/engine-agnostic-informational?style=for-the-badge)](knowledge/MULTI_ENGINE.md)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey?style=for-the-badge)](LICENSE)
 
 ---
 
@@ -25,14 +26,15 @@ Created by **Daniel Rodrigues**, the skill combines a curated knowledge base of 
 - 🔎 Investigative reporting
 - 🌐 OSINT and open-source research
 - ✅ Fact-checking and verification
-- 📊 Data journalism
+- 🗺️ Geolocation and chronolocation of images/video
+- 📊 Data journalism, from cleaning to published dashboards
 - 🏢 Corporate and financial investigations
 - 🧾 Public records and documentary research
 - 🖼️ Image, video and audio verification
 - 🧠 AI-assisted journalism
-- 🛡️ Source protection and journalist safety
-- ✍️ Editorial structure and reporting
-- 🌍 Multilingual and cross-border investigations
+- 🛡️ Source protection, journalist safety and defensive digital security
+- ✍️ Editorial structure, reporting and narrative craft
+- 🌍 Multilingual and cross-border investigations (with a dedicated Brazilian newsroom annex)
 - 🧬 Information integrity and synthetic media analysis
 
 The central idea is simple:
@@ -43,11 +45,19 @@ The books are not treated as a bibliography sitting beside the Skill. Their usef
 
 ---
 
+## 🤖 Works with any AI engine
+
+This is not a Claude-only plugin. `investigativejournalism.skill` is a plain folder of Markdown, JSON and small scripts — no vendor API, no required plugin format. It is designed to be loaded as context by **Claude, GPT, Gemini, Grok, Llama, DeepSeek, or any other capable engine**, and to use whatever tools that engine's runtime already exposes (web search, file reading, code execution, vision input, connected apps).
+
+See [`knowledge/MULTI_ENGINE.md`](knowledge/MULTI_ENGINE.md) for the compatibility rules and a rough capability-mapping table across common engines. Use only what a given session actually has available — an unavailable capability should degrade gracefully, never be faked.
+
+---
+
 ## ⚡ Why this Skill exists
 
 A powerful research assistant should not simply answer:
 
-> “Here are some links.”
+> "Here are some links."
 
 It should be able to ask:
 
@@ -102,12 +112,18 @@ The Skill routes a task to the smallest relevant knowledge module instead of loa
 | 🔎 Investigations & wrongdoing | `knowledge/INVESTIGATION.md` |
 | ✅ Fact-checking & claims | `knowledge/VERIFICATION.md` |
 | 🌐 OSINT & digital investigation | `knowledge/OSINT.md` |
+| 🗺️ Geolocation & chronolocation of media | `knowledge/GEOLOCATION.md` |
 | 📊 Data & statistics | `knowledge/DATA.md` |
+| 📈 Charts, dashboards, maps & publication | `knowledge/DATA_VISUALIZATION.md` |
 | 🏢 Companies & money | `knowledge/COMPANIES_AND_MONEY.md` |
 | ✍️ Reporting & editorial work | `knowledge/EDITORIAL.md` |
+| 🎙️ Narrative craft for verified stories | `knowledge/NARRATIVE_AND_STYLE.md` |
 | 🛡️ Ethics & journalist safety | `knowledge/ETHICS_AND_SAFETY.md` |
+| 🔐 Defensive digital safety (phishing, leaks, forensics) | `knowledge/DIGITAL_SAFETY.md` |
 | 🤖 AI & information integrity | `knowledge/AI_AND_INFORMATION_INTEGRITY.md` |
-| 🌍 International investigations | `knowledge/INTERNATIONALIZATION.md` |
+| 🌍 International & Brazilian newsroom work | `knowledge/INTERNATIONALIZATION.md` |
+| 🧰 Concrete tool inventory | `tools/TOOLBOX.md` |
+| 🔌 Running on a non-Claude engine | `knowledge/MULTI_ENGINE.md` |
 
 ### The routing principle
 
@@ -121,7 +137,7 @@ Task Classification
 Relevant Knowledge Module
      │
      ▼
-Relevant Source Family
+Relevant Source Family / Tool
      │
      ▼
 Investigation / Verification Procedure
@@ -140,7 +156,7 @@ Structured Result
 
 ## 📚 The 49-source knowledge base
 
-Version 3.0 was developed by analyzing the complete journalism reference archive rather than relying on a single reference work.
+Version 3.0 was developed by analyzing the complete journalism reference archive rather than relying on a single reference work. Version 4.0 adds five new knowledge modules (geolocation, defensive digital safety, data visualization, narrative craft, multi-engine compatibility) informed by a separate review of ten external open-source AI-skill projects — see [`CREDITS.md`](CREDITS.md) for exactly what was reviewed and what, if anything, was adapted from each.
 
 The source collection covers multiple disciplines, including:
 
@@ -148,22 +164,22 @@ The source collection covers multiple disciplines, including:
 Research methodology, hypotheses, documentary evidence, narrative construction and investigative workflows.
 
 ### Verification & fact-checking
-Claim isolation, primary evidence, corroboration, context, UGC verification and uncertainty handling.
+Claim isolation, primary evidence, corroboration, context, UGC verification, geolocation/chronolocation and uncertainty handling.
 
 ### OSINT
 Public-source research, search strategies, archives, digital traces, provenance and open-source investigations.
 
 ### Data journalism
-Dataset acquisition, cleaning, statistical reasoning, reproducibility, visualization and methodological transparency.
+Dataset acquisition, cleaning, statistical reasoning, reproducibility, visualization, dashboards and methodological transparency.
 
 ### Corporate & financial research
 Company records, ownership structures, financial statements, contracts, procurement, related parties and documentary chains.
 
 ### Editorial practice
-Accuracy, attribution, structure, headlines, corrections, right of reply and publication discipline.
+Accuracy, attribution, structure, headlines, corrections, narrative craft, right of reply and publication discipline.
 
 ### Ethics & safety
-Source protection, privacy minimization, proportionality, risk assessment and journalist safety.
+Source protection, privacy minimization, proportionality, risk assessment, journalist safety and defensive digital security.
 
 ### AI & information integrity
 AI-assisted newsroom workflows, synthetic media, information disorder, provenance and human verification.
@@ -173,6 +189,8 @@ See:
 - [`REFERENCES.md`](REFERENCES.md)
 - [`sources/manifest.json`](sources/manifest.json)
 - [`ANALYSIS_REPORT.md`](ANALYSIS_REPORT.md)
+- [`CREDITS.md`](CREDITS.md) — external skill/tooling inspirations for v4.0.0
+- [`CHANGELOG.md`](CHANGELOG.md)
 
 ---
 
@@ -195,6 +213,10 @@ The Skill can internally classify evidence by evidentiary role, but **no confide
 A social-media post can be an excellent lead.
 
 It is not automatically excellent evidence.
+
+### Narrative craft never outruns evidence
+
+Version 4.0 adds engagement and storytelling techniques (`knowledge/NARRATIVE_AND_STYLE.md`), but a technique is used only if it can sit on top of an already-verified fact. If a technique would require softening a qualifier or implying more certainty than the reporting supports, it is rejected — no exception for how much it improves the read.
 
 ---
 
@@ -231,9 +253,11 @@ The Skill emphasizes:
 - contextual interpretation;
 - privacy minimization.
 
+A concrete, categorized menu of tools for this ladder (search engines, archives, registries, imagery) lives in [`tools/TOOLBOX.md`](tools/TOOLBOX.md).
+
 ---
 
-## 🖼️ Media verification
+## 🖼️ Media verification & geolocation
 
 For suspicious images, videos or audio, the workflow may include:
 
@@ -241,18 +265,18 @@ For suspicious images, videos or audio, the workflow may include:
 2. Preserve the original when possible.
 3. Inspect metadata and provenance.
 4. Compare crops, frames and recompressions.
-5. Geolocate using multiple landmarks.
+5. Geolocate using multiple landmarks — see [`knowledge/GEOLOCATION.md`](knowledge/GEOLOCATION.md) for the full ladder, including satellite comparison and a privacy/necessity gate before publishing any location finding.
 6. Chronolocate using independent temporal evidence.
 7. Compare against archival imagery.
 8. Inspect possible manipulation or synthesis.
 9. Corroborate independently.
-10. Treat automated AI detectors as **indicators, not proof**.
+10. Treat automated AI detectors — and AI-assisted geolocation reads from tools like Grok's vision, Google Lens or similar — as **indicators, not proof**.
 
 A visual anomaly is a **lead for investigation**, not a verdict.
 
 ---
 
-## 📊 Data journalism
+## 📊 Data journalism, visualized
 
 The Skill starts with the **journalistic question**, not the spreadsheet.
 
@@ -271,6 +295,8 @@ For important datasets it encourages:
 - avoiding unsupported causal claims;
 - documenting uncertainty;
 - making analysis reproducible.
+
+When the deliverable is a chart, map, dashboard or interactive piece, [`knowledge/DATA_VISUALIZATION.md`](knowledge/DATA_VISUALIZATION.md) covers choosing the right visual form, accuracy/accessibility checks, and design guidance for a publication-ready result.
 
 > **Every important number should be traceable to its source and definition.**
 
@@ -326,7 +352,8 @@ AI can assist with:
 - data-cleaning suggestions;
 - document comparison;
 - research organization;
-- draft structure.
+- draft structure;
+- a first-pass geolocation or media-authenticity read.
 
 But:
 
@@ -364,20 +391,23 @@ Before publishing sensitive information, ask:
 - Can the public-interest fact be established without publishing the sensitive detail?
 - Does the person have a legitimate expectation of privacy?
 
-The Skill also includes safeguards around confidential sources and journalist safety.
+The Skill also includes safeguards around confidential sources, journalist safety, and — new in v4.0 — defensive digital safety: recognizing phishing aimed at a newsroom, authenticating a leaked file's digital packaging, and account/device hygiene ([`knowledge/DIGITAL_SAFETY.md`](knowledge/DIGITAL_SAFETY.md)).
 
 ### Security boundary
 
-Security and penetration-testing references included in the knowledge archive are used only for **lawful, passive, defensive and journalistic research involving publicly accessible information**.
+Security-related knowledge in this skill — passive reconnaissance concepts, digital-forensics-informed verification, defensive threat modeling — is used only for **lawful, passive, defensive and journalistic research involving publicly accessible or properly authorized information**.
 
-The Skill is not intended to facilitate:
+The Skill is not intended to facilitate, and explicitly excludes:
 
 - unauthorized access;
 - credential theft;
 - malware;
 - exploitation of systems without authorization;
 - bypassing access controls;
+- any offensive security technique, however framed;
 - exposure of private information merely because it is technically discoverable.
+
+`CREDITS.md` documents a case in point: a large third-party cybersecurity-skill library was reviewed for v4.0, and only its defensive/verification-relevant subset was adapted — its offensive-security content was deliberately left out.
 
 ---
 
@@ -406,9 +436,9 @@ Internationalization should preserve the underlying meaning while adapting:
 - newsroom style;
 - names and titles.
 
-> **Localization must not silently change the legal, statistical or evidentiary meaning of a source.**
+New in v4.0: a dedicated **Brazilian newsroom operational annex** inside [`knowledge/INTERNATIONALIZATION.md`](knowledge/INTERNATIONALIZATION.md) — pauta (assignment) format, the exact procedural-stage terms (*investigado → indiciado → denunciado → réu → condenado*), right-of-reply register, style conventions, and an LGPD-aware data-minimization note.
 
-See [`knowledge/INTERNATIONALIZATION.md`](knowledge/INTERNATIONALIZATION.md).
+> **Localization must not silently change the legal, statistical or evidentiary meaning of a source.**
 
 ---
 
@@ -422,17 +452,29 @@ jornalism.skill/
 ├── REFERENCES.md
 ├── ANALYSIS_REPORT.md
 ├── SOURCE_ARCHIVE_POLICY.md
+├── CREDITS.md
+├── CHANGELOG.md
+├── LICENSE
+├── config.yaml
 │
 ├── knowledge/
 │   ├── INVESTIGATION.md
 │   ├── VERIFICATION.md
 │   ├── OSINT.md
+│   ├── GEOLOCATION.md
 │   ├── DATA.md
+│   ├── DATA_VISUALIZATION.md
 │   ├── COMPANIES_AND_MONEY.md
 │   ├── EDITORIAL.md
+│   ├── NARRATIVE_AND_STYLE.md
 │   ├── ETHICS_AND_SAFETY.md
+│   ├── DIGITAL_SAFETY.md
 │   ├── AI_AND_INFORMATION_INTEGRITY.md
-│   └── INTERNATIONALIZATION.md
+│   ├── INTERNATIONALIZATION.md
+│   └── MULTI_ENGINE.md
+│
+├── tools/
+│   └── TOOLBOX.md
 │
 ├── sources/
 │   └── manifest.json
@@ -441,7 +483,8 @@ jornalism.skill/
 │   └── output.schema.json
 │
 └── scripts/
-    └── ...
+    ├── profile_dataset.py
+    └── validate_manifest.py
 ```
 
 ---
@@ -452,18 +495,19 @@ The primary runtime instructions are in:
 
 **[`SKILL.md`](SKILL.md)**
 
-A compatible AI runtime should:
+A compatible AI runtime — of any vendor — should:
 
 1. Load the Skill instructions.
-2. Classify the user's research task.
-3. Route the request to the relevant knowledge module.
-4. Use the source map to identify supporting methodology.
-5. Collect and evaluate evidence.
-6. Separate fact from inference.
-7. Test alternative explanations.
-8. Record uncertainty.
-9. Apply ethical and safety gates.
-10. Produce a transparent result with a source trail.
+2. Check which tools/capabilities this session actually has (`knowledge/MULTI_ENGINE.md`).
+3. Classify the user's research task.
+4. Route the request to the relevant knowledge module(s) via `SKILL.md`'s task router.
+5. Use the source map and `tools/TOOLBOX.md` to identify supporting methodology and concrete tools.
+6. Collect and evaluate evidence.
+7. Separate fact from inference.
+8. Test alternative explanations.
+9. Record uncertainty.
+10. Apply ethical, safety and (if geolocation is involved) publication-precision gates.
+11. Produce a transparent result with a source trail, following `schemas/output.schema.json` when structured output is requested.
 
 ---
 
@@ -499,7 +543,7 @@ This makes the investigation easier to audit, reproduce and update.
 
 ## 📖 Copyright-aware knowledge design
 
-The repository does **not** attempt to redistribute the 49 reference books.
+The repository does **not** attempt to redistribute the 49 reference books, nor any text or code from the third-party skill projects reviewed for v4.0 (see `CREDITS.md`).
 
 Instead, the Skill contains:
 
@@ -509,11 +553,12 @@ Instead, the Skill contains:
 - research procedures;
 - decision gates;
 - schemas;
-- machine-readable metadata.
+- machine-readable metadata;
+- a concrete, non-binding tool inventory.
 
 The original works remain the underlying references.
 
-This architecture allows the Skill to benefit from a broad journalism knowledge base without turning the repository into a copy of the source library.
+This architecture allows the Skill to benefit from a broad journalism knowledge base — and from the wider open-source AI-skill ecosystem — without turning the repository into a copy of any source library.
 
 ---
 
@@ -535,7 +580,7 @@ The Skill is designed as a modular foundation for:
 - OSINT practitioners;
 - data journalists;
 - journalism students;
-- AI-assisted newsrooms.
+- AI-assisted newsrooms — on whichever AI engine they use.
 
 ---
 
@@ -552,15 +597,17 @@ Useful contributions include:
 - reproducibility improvements;
 - data-journalism methodology;
 - ethical safeguards;
-- newsroom-oriented use cases.
+- newsroom-oriented use cases;
+- additional concrete tools for `tools/TOOLBOX.md` (with current-as-of dates);
+- credited adaptations from other open-source skill projects, following the accounting format in `CREDITS.md`.
 
-When proposing a methodological change, explain **what evidence or journalism practice supports the change**.
+When proposing a methodological change, explain **what evidence or journalism practice supports the change**. When proposing an adaptation from an external project, state clearly what you verified about that project and what, specifically, was adapted versus reviewed-and-set-aside.
 
 ---
 
 ## 📌 Project philosophy
 
-> **Investigate first. Verify independently. Preserve provenance. Challenge your own hypothesis. Protect people. Publish only what the evidence supports.**
+> **Investigate first. Verify independently. Preserve provenance. Challenge your own hypothesis. Protect people. Publish only what the evidence supports — on any engine, with any tool that actually helps.**
 
 ---
 

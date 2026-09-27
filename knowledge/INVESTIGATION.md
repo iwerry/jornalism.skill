@@ -66,7 +66,7 @@ Build the narrative around:
 - contradiction or response;
 - unresolved limitations.
 
-The narrative must never outrun the evidence.
+The narrative must never outrun the evidence. For engagement and structure techniques (openings, scene-setting, pacing) applied without loosening this rule, see `knowledge/NARRATIVE_AND_STYLE.md`.
 
 ## 6. Right of reply
 Convert every serious allegation into concrete questions.

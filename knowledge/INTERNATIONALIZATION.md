@@ -59,6 +59,16 @@ A source translated from another language is still the same source lineage.
 
 Independent corroboration requires independence of origin, not merely different languages.
 
+## Brazilian newsroom operational annex
+
+For a `pt-BR` request, the presentation layer defaults to:
+
+- **Pauta (assignment brief):** question, hypothesis, sources to contact, documents to request, expected difficulty — same fields as `schemas/output.schema.json`'s `investigation_record`, in the format used by `S44` (Modelo de Pauta Padrão).
+- **Fases processuais (right-of-reply and legal status terms):** use the exact stage — *investigado → indiciado → denunciado → réu → condenado* — never collapse these into a generic "acusado" when the file specifies a stage.
+- **Direito de resposta:** frame right-of-reply requests in the register used by Brazilian editorial manuals (S23, S24, S26, S29, S32) — neutral, specific, time-bound, and never presuming guilt (Art. 5º, LXXIV and the press-ethics code S33).
+- **Style conventions:** decimal comma, DD/MM/AAAA dates, R$ currency formatting, and Estadão/Poder360/EBC-style numeral and title conventions (S24, S26, S32) unless the newsroom specifies otherwise.
+- **LGPD:** treat personal-data minimization questions in `knowledge/ETHICS_AND_SAFETY.md` as also satisfying Lei Geral de Proteção de Dados (Lei 13.709/2018) proportionality expectations — this is operational guidance, not legal advice; confirm with counsel for a specific publication.
+
 ## Source map
 
 - S20–S21 — Latin American press and safety context.

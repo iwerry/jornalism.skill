@@ -41,6 +41,8 @@ Verification sequence:
 
 C2PA/Content Credentials can be useful provenance evidence when present and intact, but their absence does not prove falsity.
 
+For deepfake audio/video and manipulated-media leads, treat detector output the same way as any automated classifier under `knowledge/DATA.md` §7: a lead, not a verdict, until independently corroborated.
+
 ## Elections and public information
 AI-related election reporting should examine:
 - source provenance;

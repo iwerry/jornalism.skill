@@ -39,6 +39,13 @@ Edit for:
 - legal terminology;
 - numerical consistency.
 
+## Engaging narrative without sacrificing accuracy
+A well-reported story can still fail to be read. Craft techniques — a concrete opening scene, a clear stake for the reader, controlled pacing, an active voice — are legitimate editorial tools.
+
+The boundary: craft may change how a verified fact is *told*, never what it *claims*. If a persuasive or narrative technique would require adding a detail that is not evidenced, cutting a material qualifier, or implying a conclusion the reporting does not support, the technique is rejected regardless of how much it improves the read.
+
+See `knowledge/NARRATIVE_AND_STYLE.md` for the operational checklist.
+
 ## Corrections
 A correction should identify:
 - what was wrong;
@@ -51,7 +58,7 @@ Do not silently rewrite a material factual error.
 ## Style localization
 Style manuals in the corpus are conventions, not universal laws.
 
-Use the user's requested publication context and jurisdiction.
+Use the user's requested publication context and jurisdiction. For Brazilian newsroom conventions (pauta, apuração checklist, right-of-reply phrasing) see `knowledge/INTERNATIONALIZATION.md`.
 
 ## Source map
 - S17, S23, S28, S32, S33 — ethics and editorial standards.

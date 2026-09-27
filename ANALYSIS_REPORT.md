@@ -63,3 +63,12 @@ This is the mechanism that turns the library into usable knowledge rather than a
 The repository contains original summaries, routing information and operational abstractions. It does not redistribute the supplied books or reproduce long passages from them.
 
 The `sources/manifest.json` file identifies the source files used during the reanalysis so that a deployment can maintain a separate licensed/private reference library when appropriate.
+
+## v4.0.0 addendum — external skill/tooling review
+
+In addition to the 49-PDF corpus above, v4.0.0 reviewed ten external open-source "AI agent skill" projects supplied by a repository contributor, to check for operational patterns worth folding into this journalism-specific skill (see `CREDITS.md` for the full, per-project accounting). Two structural decisions came out of that review:
+
+1. **Portability.** The skill was made explicitly engine-agnostic (`knowledge/MULTI_ENGINE.md`): it now states plainly that it should run on any capable LLM using that engine's own tools, not just Claude, matching the "no lock-in" packaging philosophy found in several of the reviewed skill-distribution projects.
+2. **Scope discipline.** Of the ten reviewed projects, several were adapted only at a principle level into new, clearly-scoped knowledge modules (geolocation, defensive digital safety, data-visualization production, narrative craft), one was judged off-domain and set aside (academic-journal submission tooling), and any offensive-security content found in the cybersecurity-skill library reviewed was deliberately excluded — this skill's existing "lawful, passive, defensive" boundary was treated as non-negotiable throughout the review.
+
+No text or code from any reviewed project is redistributed in this repository.

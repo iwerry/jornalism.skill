@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "4.0.0",
   "investigation_record": {
     "research_question": "string",
     "hypothesis": "string",
@@ -29,6 +29,23 @@
         "role": "primary|corroboration|context|lead"
       }
     ],
+    "tools_used": [
+      {
+        "tool": "string (e.g. 'reverse image search', 'company registry lookup')",
+        "purpose": "string",
+        "engine_or_provider": "string (optional, e.g. which map/search/vision tool actually executed this)"
+      }
+    ],
+    "geolocation": {
+      "claimed_location": "string",
+      "confidence": "confirmed|probable|unresolved",
+      "anchors_used": [
+        "string"
+      ],
+      "chronolocation_estimate": "string",
+      "publication_precision": "exact|regional|withheld",
+      "publication_precision_rationale": "string"
+    },
     "right_of_reply": {
       "parties": [
         "string"
@@ -59,6 +76,9 @@
       "string"
     ],
     "method": [
+      "string"
+    ],
+    "tools_used": [
       "string"
     ],
     "status": "verified|partially_supported|misleading|false|unverifiable|indeterminate",
